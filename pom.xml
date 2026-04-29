@@ -121,6 +121,13 @@
             <version>8.5.9</version>
         </dependency>
 
+        <!--knife4j依赖, 调试接口使用-->
+        <dependency>
+            <groupId>com.github.xiaoymin</groupId>
+            <artifactId>knife4j-openapi3-jakarta-spring-boot-starter</artifactId>
+            <version>4.5.0</version>
+        </dependency>
+
     </dependencies>
 
     <build>

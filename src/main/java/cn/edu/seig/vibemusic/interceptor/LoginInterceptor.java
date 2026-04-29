@@ -39,7 +39,7 @@ public class LoginInterceptor implements HandlerInterceptor {
 
     @Override
     public boolean preHandle(HttpServletRequest request, HttpServletResponse response, Object handler) throws Exception {
-        // 允许 CORS 预检请求（OPTIONS 方法）直接通过
+        // 允许 CORS 预检请求（OPTIONgit rev-parse --show-toplevelS 方法）直接通过
         if (request.getMethod().equalsIgnoreCase("OPTIONS")) {
             response.setStatus(HttpServletResponse.SC_OK);
             return true; // 直接放行，确保 CORS 预检请求不会被拦截
