@@ -28,9 +28,9 @@ spring:
   # 配置邮件服务
   mail:
     # 配置邮箱账户和密码
-    host: smtp.example.com # 修改你的 SMTP 服务器地址
-    username: your-email@example.com # 修改你的邮箱账号
-    password: YOUR_EMAIL_APP_PASSWORD # 修改你的邮箱应用密码或授权码
+    host: smtp.qq.com # 修改你的 SMTP 服务器地址
+    username: 3994939535@qq.com # 修改你的邮箱账号
+    password: okhnhcgzyomncejb # 修改你的邮箱应用密码或授权码
     protocol: smtp
     properties:
       mail:
